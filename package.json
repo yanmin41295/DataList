@@ -1,0 +1,42 @@
+{
+  "name": "DataList",
+  "version": "0.9.9",
+  "maintainers": [
+    "yanmin41295@outlook.com"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "stream",
+    "java stream",
+    "data",
+    "list",
+    "array",
+    "table",
+    "dataset"
+  ],
+  "description": "handle array like stream in java",
+  "main": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "debug": "esrun ./src/index.ts",
+    "build": "tsc ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "min",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@vitest/coverage-v8": "^2.0.3",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "tinybench": "^2.8.0",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3",
+    "esrun": "^3.2.26",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+  }
+}
