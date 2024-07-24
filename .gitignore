@@ -4,3 +4,4 @@ dist/
 pnpm-lock.yaml
 .idea/
 coverage/
+configs/.env.test

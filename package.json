@@ -22,7 +22,8 @@
   "scripts": {
     "debug": "esrun ./src/index.ts",
     "build": "tsc ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "author": "min",
   "license": "ISC",
@@ -30,13 +31,15 @@
     "@types/node": "^20.14.11",
     "@vitest/coverage-v8": "^2.0.3",
     "chai": "^5.1.1",
+    "esrun": "^3.2.26",
     "mocha": "^10.7.0",
     "tinybench": "^2.8.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
-    "vitest": "^2.0.3",
-    "esrun": "^3.2.26",
-    "ts-node": "^10.9.2"
+    "vitest": "^2.0.3"
   },
   "dependencies": {
+    "@jswork/loadenv": "^1.0.3",
+    "loadenv": "^2.2.0"
   }
 }
